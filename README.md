@@ -25,6 +25,6 @@ For direct contributions, please fork the repository and file a pull request.
 
 ## Contact
 #### Developer/Full-stack Web Software Developer (in training)
-* Homepage: csbistline.github.io
-* e-mail: chris.bistline@gmail.com
-* LinkedIn: https://www.linkedin.com/in/christopher-bistline-a0999a115/
+* Homepage: 
+* e-mail: bfpulliam@gmail.com
+* LinkedIn: 
