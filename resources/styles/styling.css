@@ -1,133 +1,123 @@
+.autocomplete-location {
+	color: black;
+	font-size: smaller;
+	opacity: 0.8;
+}
+.autocomplete-result {
+	border-bottom: solid 1px #eee;
+	color: black;
+	cursor: pointer;
+	padding: 12px 15px;
+}
+.autocomplete-result:last-child {
+	border-bottom-width: 0;
+	color: black;
+}
+.autocomplete-results {
+	background: white;
+	border: solid 1px #ddd;
+	border-bottom-color: #ccc;
+	border-top-width: 0;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	color: black;
+	font-size: 13px;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	z-index: 1;
+}
+.autocomplete-wrapper {
+	position: relative;
+}
+body {
+	background: url("../images/aircraft-airplane-aviation-333525-a.jpg");
+	background-attachment: fixed;
+	background-position: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+button {
+	float: right;
+}
+.card {
+	background: rgb(255, 204, 64, 0.3);
+	border-radius: 5px;
+	color: black;
+	padding: 5px;
+}
+.card-header {
+	color: white;
+}
+.control-label {
+	display: block;
+}
+#event-display {
+	background-color: whitesmoke;
+	color: black;
+}
+#flight-results,
+#event-results {
+	background-color: rgb(177, 175, 172);
+	color: black;
+}
+#flight-options {
+	border: goldenrod;
+	border-radius: 5px;
+	color: whitesmoke;
+	text-align: center;
+}
+footer {
+	color: white;
+	text-align: center;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.form-group {
+	margin-bottom: 20px;
+}
+h1 {
+	color: whitesmoke;
+	font-family: "Alfa Slab One", cursive;
+	text-align: center;
+}
+h3 {
+	color: white;
+}
+.logo {
+	border-radius: 40px;
+}
+.logotext{
+	color:purple;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.maincontainer {
+	background-color: rgb(255, 204, 64, 0.7);
+	border-radius: 10px;
+}
+.navbar-brand img {
+	max-width: 50px;
+}
 .navbar-inverse .navbar-nav .active a,
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
-    color: lightblue;
-    background: rgb(0, 89, 255, 0.1);
+	background: rgb(0, 89, 255, 0.1);
+	color: lightblue;
 }
-
-button {
-    float: right;
-}
-
 .navbar-inverse .mavbar-nav li a {
-    color: grey;
+	color: grey;
 }
-.navbar-brand img {
-    max-width: 50px;
-}
-
-body {
-    background: url("../images/aircraft-airplane-aviation-333525-b.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: auto;
-    margin: 0px;
-    padding: 0px;
-}
-
-#flight-options {
-    color: whitesmoke;
-    text-align: center;
-    /* font-family: 'Alfa Slab One', cursive; */
-    border: goldenrod;
-
-    border-radius: 5px;
-}
-
-.maincontainer {
-    background-color: rgb(255, 204, 64, 0.7);
-    border-radius: 40px;
-}
-
-.card {
-    color: black;
-    background: rgb(255, 204, 64, 0.3);
-    border-radius: 5px;
-    padding: 5px;
-}
-
-footer {
-    color: white;
-    text-align: center;
-}
-
-h1 {
-    color: whitesmoke;
-    font-family: "Alfa Slab One", cursive;
-    text-align: center;
-}
-
-#flight-results,
-#event-results {
-    background-color: rgb(177, 175, 172);
-    color: black;
-}
-
-/* .btn {
-    color: navy;
-} */
-
-#event-display {
-    background-color: whitesmoke;
-    color: black;
-}
-
-.select-flight:active {
-    background-color: blue;
-}
-
 .select-event:active {
-    background-color: blue;
+	background-color: blue;
 }
-
-h3 {
-    color: white;
-}
-
-.card-header {
-    color: white;
-}
-.form-group {
-    margin-bottom: 20px;
-}
-
-.control-label {
-    display: block;
-}
-
-.autocomplete-wrapper {
-    position: relative;
-}
-
-.autocomplete-results {
-    color: black;
-    position: absolute;
-    background: white;
-    z-index: 1;
-    top: 100%;
-    left: 0;
-    font-size: 13px;
-    border: solid 1px #ddd;
-    border-top-width: 0;
-    border-bottom-color: #ccc;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.autocomplete-result {
-    color: black;
-    padding: 12px 15px;
-    border-bottom: solid 1px #eee;
-    cursor: pointer;
-}
-
-.autocomplete-result:last-child {
-    color: black;
-    border-bottom-width: 0;
-}
-
-.autocomplete-location {
-    color: black;
-    opacity: 0.8;
-    font-size: smaller;
+.select-flight:active {
+	background-color: blue;
 }
