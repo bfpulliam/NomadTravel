@@ -5,7 +5,7 @@ Chris Bistline, Bettina Pulliam, Ricardo Quintanar
 
 ## Technology
 CSS3, HTML5, Bootstrap, Javascript, jQuery, AJAX, Firebase, Firebase Authentication, Animate.css
-* Live site: https://csbistline.github.io/NomadTraveler/
+* Live site: https://bfpulliam.github.io/NomadTravel/
 * Firebase database: https://nomad-traveler.firebaseio.com/
 
 ## About
