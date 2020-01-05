@@ -2,23 +2,22 @@
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
     color: lightblue;
-    background: rgb(0, 89, 255, .1);
+    background: rgb(0, 89, 255, 0.1);
 }
 
 button {
-    float: right
+    float: right;
 }
 
 .navbar-inverse .mavbar-nav li a {
     color: grey;
 }
-
 .navbar-brand img {
     max-width: 50px;
 }
 
 body {
-    background: url("../images/back2.jpg");
+    background: url("../images/aircraft-airplane-aviation-333525-b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -37,13 +36,13 @@ body {
 }
 
 .maincontainer {
-    background-color: rgb(255, 204, 64, .7);
+    background-color: rgb(255, 204, 64, 0.7);
     border-radius: 40px;
 }
 
 .card {
     color: black;
-    background: rgb(255, 204, 64, .3);
+    background: rgb(255, 204, 64, 0.3);
     border-radius: 5px;
     padding: 5px;
 }
@@ -55,22 +54,14 @@ footer {
 
 h1 {
     color: whitesmoke;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: "Alfa Slab One", cursive;
     text-align: center;
-
 }
-
 
 #flight-results,
 #event-results {
     background-color: rgb(177, 175, 172);
     color: black;
-
-}
-
-#event-question {
-    /* color:whitesmoke; */
-    /* font-family: 'Alfa Slab One', cursive; */
 }
 
 /* .btn {
@@ -88,7 +79,6 @@ h1 {
 
 .select-event:active {
     background-color: blue;
-
 }
 
 h3 {
@@ -108,10 +98,6 @@ h3 {
 
 .autocomplete-wrapper {
     position: relative;
-
-    input {
-        width: 100%;
-    }
 }
 
 .autocomplete-results {
@@ -125,8 +111,7 @@ h3 {
     border: solid 1px #ddd;
     border-top-width: 0;
     border-bottom-color: #ccc;
-    box-shadow:
-        0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .autocomplete-result {
@@ -143,19 +128,6 @@ h3 {
 
 .autocomplete-location {
     color: black;
-    opacity: .8;
+    opacity: 0.8;
     font-size: smaller;
-}
-
-$iPlus: 0;
-
-@for $i from 0 through 7 {
-    $iPlus: $i + 1;
-
-    .autocomplete-results[data-highlight='#{$i}']> :nth-child(#{$iPlus}) {
-        color: white;
-        background: #26C9FF;
-        border-bottom-color: #26C9FF;
-        outline: solid 1px darken(#26C9FF, 10%);
-    }
 }
