@@ -1,7 +1,7 @@
 # NomadTraveler
 
 ## Contributors
-Chris Bistline, Bettina Pulliam, Ricardo Quintanar
+Bettina Pulliam, Chris Bistline, Ricardo Quintanar
 
 ## Technology
 CSS3, HTML5, Bootstrap, Javascript, jQuery, AJAX, Firebase, Firebase Authentication, Animate.css
